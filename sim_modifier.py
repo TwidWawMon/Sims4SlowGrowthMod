@@ -106,13 +106,6 @@ def set_body_value(sim_info, key: int, value: float):
 
     sim_info.facial_attributes = face_data.SerializeToString()
 
-def clear_face_data(sim_info):
-  face_data = PersistenceBlobs_pb2.BlobSimFacialCustomizationData()
-  face_data.ParseFromString(sim_info.facial_attributes)
-  # face_data.Clear()
-  Logger.print_str(dir(face_data))
-  sim_info.facial_attributes = face_data.SerializeToString()
-
 def set_all_sims_normal():
     all_sims = list(services.sim_info_manager().get_all())
     for sim in all_sims:
