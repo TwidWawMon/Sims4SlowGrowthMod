@@ -45,7 +45,7 @@ These come from `main.py`:
 
 ### Camera modes
 
-- Pressing `tab` enters a free-roam camera mode. WASD will move, Q and E will change heights. Holding shift will doing those will increase their speed.
+- Pressing `tab` enters a free-roam camera mode. WASD will move, Q and E will change heights. Holding shift while doing those will increase their speed.
 - Shift+tab enters first-person camera. If you launch through Steam, then you'll need to change the Steam hotkey to activate this.
 
 ### Updating the max height of the height-slider mod
