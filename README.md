@@ -2,14 +2,16 @@
 
 A mod that grows all female sims (height and chest size) over time.
 
+[Demo video](https://www.youtube.com/watch?v=qfW2hr1AkAU)
+
 ## How to use
 
-Note: this works with the base game, but other mods are needed first.
+Note: this works with the base game, so you don't need to purchase any expansions.
 
 1. Download dependent mods:
     - [Height slider](https://modthesims.info/d/588159/height-slider.html). I downloaded the `1515` version since Sims 4 Studio allows for easy editing of the max height (see farther down on this page for how to do that).
     - [Breast augmentation](https://modthesims.info/d/536790/breast-augmentation.html). I downloaded the `222` version. This technically isn't _necessary_, but if you stumbled on this page, then you probably want this mod.
-1. Download all Python files from this repo and save them to **a subfolder** in your Sims 4 mods folder. On Windows, this is `%userprofile%\Documents\Electronic Arts\The Sims 4\Mods`. The final path of those files should look something like this: `C:\Users\your_name\Documents\Electronic Arts\The Sims 4\Mods\SlowGrowth\main.py`.
+1. Download [SlowGrowthMod.ts4script](https://github.com/TwidWawMon/Sims4SlowGrowthMod/raw/main/SlowGrowthMod.ts4script) and save it to **a subfolder** in your Sims 4 mods folder. On Windows, this is `%userprofile%\Documents\Electronic Arts\The Sims 4\Mods` (just paste that whole path into the address bar of Explorer). The final path should look something like this: `C:\Users\your_name\Documents\Electronic Arts\The Sims 4\Mods\SlowGrowth\SlowGrowthMod.ts4script`.
 1. Launch The Sims 4, go to Game Options, then Other, then check "Script Mods Allowed" (and restart The Sims 4).
 1. Press ctrl+shift+C to open the cheat console and type `s`. Any time you travel in the game, enter the character editor, or restart the game, you'll need to perform this step again.
 
